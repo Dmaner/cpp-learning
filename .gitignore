@@ -2,3 +2,5 @@
 .vscode
 *.pdf
 *.o
+SGI-STL-code
+test.cpp
