@@ -18,6 +18,7 @@ std::mutex mut;
 std::queue<data_chunk> data_queue;
 std::condition_variable data_cond;
 
+// producer
 void data_preparation_thread() {
   while (more_data_to_prepare()) {
     data_chunk const data = prepare_data();
@@ -28,6 +29,7 @@ void data_preparation_thread() {
   }
 }
 
+// consumer
 void data_processing_thread() {
   while (true) {
     std::cout << "processing ..." << std::endl;
