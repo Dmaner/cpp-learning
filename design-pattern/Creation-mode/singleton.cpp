@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// 饿汉
+// 懒汉
 class singleton {
  private:
   static singleton* p;
@@ -35,7 +35,7 @@ singleton2* singleton2::p = new singleton2();
 
 singleton2* singleton2::instance() { return p; }
 
-// besr of all in c++11
+// best implemention of all in c++11
 
 class singleton_th {
  private:
