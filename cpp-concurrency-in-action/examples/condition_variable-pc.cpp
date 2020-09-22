@@ -73,7 +73,6 @@ void Producer()
 
 void Comsumer()
 {
-    thread::id thread_id = this_thread::get_id();
     int n = 0;
     do
     {

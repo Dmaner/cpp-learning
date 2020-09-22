@@ -2,6 +2,6 @@
 .vscode
 *.pdf
 *.o
-SGI-STL-code
+cpp-lib-source-code
 test.cpp
 cpp-books
