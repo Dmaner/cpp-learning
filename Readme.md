@@ -4,7 +4,7 @@
 - [X] <font face="Consolas">Effective c++</font>
 - [ ] <font face="楷体">深度探索c++模型</font>
 - [ ] <font face="楷体">设计模式</font>
-- [ ] <font face="Consolas">C++ Concurrency in action 2nd</font>
+- [x] <font face="Consolas">C++ Concurrency in action 2nd</font>
 - [ ] <font face="Consolas">C++ Standard Library </font>
 
 ## <font face="Consolas">C++ Project</font>
