@@ -1,7 +1,19 @@
-*.exe
-.vscode
-*.pdf
-*.o
-cpp-lib-source-code
-test.cpp
+# 忽略所有文件
+*
+# 不忽略目录
+!*/
+
+# 不忽略文件
+!.gitignore
+!*.c
+!*.cpp
+!*.md
+!LICENSE
+!*.png
+!Makefile
+
+# 忽略文件
 cpp-books
+test.cpp
+.vscode
+cpp-lib-source-code
