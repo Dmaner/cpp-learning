@@ -47,7 +47,7 @@
 - [ ] rocksdb
 - [ ] STL
 
-## Some details
+## [Some details](./etc)
 - c++ new 和 malloc区别
 - c++ allcator
 - c++ template 特偏化
