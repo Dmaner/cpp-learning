@@ -33,4 +33,8 @@ Liskov（里氏）替换原则
 - [装饰模式](Decorator.cpp)
 - [桥模式](Bridge.cpp)
 #### 创建型模式
-- [工厂模式]
+- [工厂模式](FactoryMethod.cpp)
+- [抽象工厂模式](AbstractFactory.cpp)
+- [原型模式](Prototype.cpp)
+- [建造者模式](Build.cpp)
+- [单例模式]()

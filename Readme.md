@@ -5,13 +5,11 @@
 ## C/C++
 
 - [X] 基础语法
-- [ ] 标准库
-- [ ] 并发
-- [ ] STL
-- [ ] 算法
+- [X] 标准库
+- [X] 并发
+- [X] STL
 - [ ] 网络编程
 - [ ] 系统编程
-- [ ] 设计模式
 
 ## Reading list
 
@@ -21,10 +19,9 @@
 - [X] Effective c++
 - [ ] More Effective c++
 - [ ] 深度探索c++模型
-- [ ] 设计模式
 - [x] C++ Concurrency in action 2nd
 - [ ] C++ Standard Library 
-- [ ] STL源码剖析 
+- [X] STL源码剖析 
 
 ## C++ Project
 
@@ -45,7 +42,7 @@
 - [ ] leveldb
 - [ ] redis
 - [ ] rocksdb
-- [ ] STL
+- [X] STL
 
 ## [Some details](./etc)
 - c++ new 和 malloc区别
