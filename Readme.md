@@ -8,8 +8,8 @@
 - [X] 标准库
 - [X] 并发
 - [X] STL
-- [ ] 网络编程
-- [ ] 系统编程
+- [X] 网络编程
+- [X] 系统编程
 
 ## Reading list
 
@@ -28,25 +28,28 @@
 > 记录用c++完成的项目
 
 - [x] [Mit 6.S081 os lab](https://zhuanlan.zhihu.com/p/272199762)
-- [ ] 实现HttpServer
+- [X] 实现HttpServer
 - [ ] 实现一些无锁STL
 - [ ] 实现简易线程池
-- [ ] 内存泄露检测
 - [ ] 实现智能指针
-- [ ] 实现23个设计模式
+- [X] [实现23个设计模式](projects/design-pattern)
 
 ## Framework source code
 
-> c++ 开源框架源码阅读
+> c/c++ 开源框架源码阅读
 
 - [ ] leveldb
 - [ ] redis
 - [ ] rocksdb
+- [ ] Nginx
 - [X] STL
 
 ## [Some details](./etc)
+
 - c++ new 和 malloc区别
 - c++ allcator
 - c++ template 特偏化
 - operator new实现
 - c++位域的使用
+- g++优化指令
+- c volatile关键字
