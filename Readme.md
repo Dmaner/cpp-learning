@@ -33,6 +33,9 @@
 - [ ] 实现简易线程池
 - [ ] 实现智能指针
 - [X] [实现23个设计模式](projects/design-pattern)
+- [ ] 简易RPC
+- [ ] 简易KV引擎
+- [ ] 红黑树
 
 ## Framework source code
 
@@ -41,10 +44,14 @@
 - [ ] leveldb
 - [ ] redis
 - [ ] rocksdb
+- [ ] mongodb
 - [ ] Nginx
+- [ ] memcached
 - [X] STL
 
 ## [Some details](./etc)
+
+> 记录c++相关面试题
 
 - c++ new 和 malloc区别
 - c++ allcator
@@ -53,3 +60,11 @@
 - c++位域的使用
 - g++优化指令
 - c volatile关键字
+- c ++ 智能指针
+- c++ std::sort实现
+- c++ 大小端实现
+- 生产者和消费者
+- memcpy函数
+- c++ 条件变量实现
+- c++ 虚表位置
+- c++ 红黑树实现

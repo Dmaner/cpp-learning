@@ -6,20 +6,20 @@
 
 #include <atomic>
 #include <mutex>
-class Singleton {
- private:
-  Singleton();
-  Singleton(const Singleton& other);
 
- public:
-  static Singleton* getInstance();
-  static Singleton* m_instance;
+class Singleton
+{
+private:
+	Singleton() { };
+	~Singleton() { };
+	Singleton(const Singleton&);
+	Singleton& operator=(const Singleton&);
+public:
+	static Singleton& getInstance() 
+        {
+		static Singleton instance;
+		return instance;
+	}
 };
 
-/* 单线程版 */
-Singleton* Singleton::getInstance() {
-  if (m_instance == nullptr) {
-    m_instance = new Singleton();
-  }
-  return m_instance;
-}
+
